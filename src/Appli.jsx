@@ -1,9 +1,10 @@
 import './Appli.scss';
+import Nom from './composants/Nom';
 
 export default function Appli() {
   return (
     <div className="Appli">
-        Gabarit de base d'une Application React
+        <Nom/>
     </div>
   );
 }
