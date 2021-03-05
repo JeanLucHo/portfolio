@@ -27,6 +27,11 @@ export const ContentProfile = () => {
               </a>
             </div>
           </div>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           <Features/>
         </div>
       </div>

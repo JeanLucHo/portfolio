@@ -12,7 +12,7 @@ export const BlogPhotoshop = () => {
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="img/photoshop/486fc3107322231.5fa433ea489ba.jpg"
+              src="img/photoshop/photoshop1.jpg"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -24,9 +24,8 @@ export const BlogPhotoshop = () => {
                   aria-label="Category"
                   title="traveling"
                 >
-                  traveling
                 </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+                <span className="text-gray-600"> Automne 2017 </span>
               </p>
               <a
                 href="/"
@@ -34,24 +33,23 @@ export const BlogPhotoshop = () => {
                 title="Visit the East"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Visit the East
+                Magazine
               </a>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
+                Un projet Photoshop inspiré pour être dans un magazine de lunettes. Le projet a été produit pendant le cours de traiterment d'images numériques en 2017.
               </p>
               <a
                 href="/"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                Voir le projet
               </a>
             </div>
           </div>
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="img/photoshop/photoshop2.jpg"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -63,9 +61,8 @@ export const BlogPhotoshop = () => {
                   aria-label="Category"
                   title="traveling"
                 >
-                  traveling
                 </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+                <span className="text-gray-600"> Automne 2018</span>
               </p>
               <a
                 href="/"
@@ -73,24 +70,23 @@ export const BlogPhotoshop = () => {
                 title="Simple is better"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Simple is better
+                Anachronisme
               </a>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
+                Projet Anachronisme. En effet, un projet publicitaire pour la marque de Rolex. Le projet a été produit pendant le cours d'images numériques en 2018.
               </p>
               <a
                 href="/"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                Voir le projet
               </a>
             </div>
           </div>
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="img/photoshop/photoshop3.jpg"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -102,9 +98,8 @@ export const BlogPhotoshop = () => {
                   aria-label="Category"
                   title="traveling"
                 >
-                  traveling
                 </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+                <span className="text-gray-600"> Automne 2018</span>
               </p>
               <a
                 href="/"
@@ -112,18 +107,17 @@ export const BlogPhotoshop = () => {
                 title="Film It!"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Film It!
+                Effet commic
               </a>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
+                Projet d'effets numériques commics sur un acteur coréen connu : Lee Jung Suk. Le projet a été produit pendant le cours d'images numériques en 2018.
               </p>
               <a
                 href="/"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                Voir le projet
               </a>
             </div>
           </div>

@@ -12,7 +12,7 @@ export const BlogArts = () => {
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src="img/art/art1.jpg"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -51,7 +51,7 @@ export const BlogArts = () => {
           </div>
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="img/art/art2.jpg"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -90,7 +90,7 @@ export const BlogArts = () => {
           </div>
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="img/art/art5.jpg"
               className="object-cover w-full h-64"
               alt=""
             />

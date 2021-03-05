@@ -12,7 +12,7 @@ export const Blog3D = () => {
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
             <a href="/" aria-label="Article">
               <img
-                src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                src="img/3d/3d1.jpg"
                 className="object-cover w-full h-64 rounded"
                 alt=""
               />
@@ -103,7 +103,7 @@ export const Blog3D = () => {
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
             <a href="/" aria-label="Article">
               <img
-                src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                src="img/3d/3d2.jpg"
                 className="object-cover w-full h-64 rounded"
                 alt=""
               />
@@ -194,7 +194,7 @@ export const Blog3D = () => {
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
             <a href="/" aria-label="Article">
               <img
-                src="https://images.pexels.com/photos/2123755/pexels-photo-2123755.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="img/3d/3d3.jpg"
                 className="object-cover w-full h-64 rounded"
                 alt=""
               />

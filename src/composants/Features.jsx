@@ -19,10 +19,13 @@ export const Features = () => {
               </svg>
             </div>
             <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-              Fearless
+              Suite Adobe
             </h6>
             <div className="mb-2 text-gray-700">
-              I will remember and recover, not forgive and forget.
+            Animate, Illustrator,
+            Photoshop, Premiere Pro,
+            After Effects, Audition, Media
+            Encoder, InDesign
             </div>
           </div>
           <div className="px-12 text-center sm:px-0">
@@ -42,10 +45,11 @@ export const Features = () => {
               </svg>
             </div>
             <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-              Honest
+              Design Graphique
             </h6>
             <div className="mb-2 text-gray-700">
-              I have nothing to lose but something to gain.
+            UX et UI, Design Web, Figma,
+            Adobe XD, Graphisme 3D
             </div>
           </div>
           <div className="px-12 text-center sm:px-0">
@@ -65,10 +69,14 @@ export const Features = () => {
               </svg>
             </div>
             <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-              Beautiful
+              Développement web
             </h6>
             <div className="mb-2 text-gray-700">
-              White is not always light and black is not always dark.
+            React, HTML, CSS, JavaScript,
+            AJAX, Vue.js, Sass, Bootstrap,
+            JSON, PHP, SQL , Git,
+            StoryBLock, UIkit, Wordpress
+
             </div>
           </div>
           <div className="px-12 text-center sm:px-0">
@@ -88,10 +96,11 @@ export const Features = () => {
               </svg>
             </div>
             <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-              Fantastic
+              Développement de jeux
             </h6>
             <div className="mb-2 text-gray-700">
-              The meaning of life is to give life meaning.
+            Unity, C#, Phaser
+
             </div>
           </div>
         </div>
