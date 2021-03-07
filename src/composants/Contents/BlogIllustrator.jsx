@@ -18,15 +18,7 @@ export const BlogIllustrator = () => {
             />
             <div className="p-5 border border-t-0">
               <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+                <span className="text-gray-600">Hivers 2019</span>
               </p>
               <a
                 href="/"
@@ -34,18 +26,17 @@ export const BlogIllustrator = () => {
                 title="Visit the East"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Visit the East
+                Illustration d'un chapeau
               </a>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
+                Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
               </p>
               <a
                 href="/"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                Voir le projet
               </a>
             </div>
           </div>
@@ -57,15 +48,7 @@ export const BlogIllustrator = () => {
             />
             <div className="p-5 border border-t-0">
               <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+                <span className="text-gray-600">Hivers 2019</span>
               </p>
               <a
                 href="/"
@@ -73,18 +56,17 @@ export const BlogIllustrator = () => {
                 title="Simple is better"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Simple is better
+           Illustration d'une potion
               </a>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
+              Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
               </p>
               <a
                 href="/"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                Voir le projet
               </a>
             </div>
           </div>
@@ -96,15 +78,8 @@ export const BlogIllustrator = () => {
             />
             <div className="p-5 border border-t-0">
               <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
+
+                <span className="text-gray-600">Hivers 2019</span>
               </p>
               <a
                 href="/"
@@ -112,18 +87,17 @@ export const BlogIllustrator = () => {
                 title="Film It!"
                 className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
               >
-                Film It!
+           Illustration d'un sceptre
               </a>
               <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
+              Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
               </p>
               <a
                 href="/"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                Learn more
+                Voir le projet
               </a>
             </div>
           </div>

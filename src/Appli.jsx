@@ -1,6 +1,6 @@
 
 import { Blog3D } from './composants/Contents/Blog3D';
-import { BlogArts } from './composants/Contents/BlogArt';
+import { BlogArt } from './composants/Contents/BlogArt';
 import { BlogDesign } from './composants/Contents/BlogDesign';
 import { BlogIllustrator } from './composants/Contents/BlogIllustrator';
 import { BlogJeu } from './composants/Contents/BlogJeu';
@@ -13,6 +13,7 @@ import { Footer } from './composants/Footer';
 import { Nav } from './composants/Nav';
 import Nom from './composants/Nom';
 import './Appli.scss';
+import { Header } from './composants/Contents/Header';
 
 export default function Appli() {
   return (
@@ -24,13 +25,14 @@ export default function Appli() {
     }}>
         {/* <Nom/> */}
         <Nav/>
+        {/* <Header/> */}
         <ContentProfile/>
         <ContentAfterEffect/>
         <BlogPhotoshop/>
         <BlogDesign/>
         <BlogIllustrator/>
         <BlogWeb/>
-        <BlogArts/>
+        <BlogArt/>
         <Blog3D/>
         <BlogJeu/>
         <BlogSon/>
