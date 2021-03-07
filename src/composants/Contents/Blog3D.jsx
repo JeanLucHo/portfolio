@@ -19,18 +19,17 @@ export const Blog3D = () => {
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              13 Jul 2020
+              automne 2019
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="text-2xl font-bold leading-5">Diving to the deep</p>
+              <p className="text-2xl font-bold leading-5">Pheonix 3D</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              Conception d'un pheonix 3D avec le logitiel Maya. Le proet a été produit pour le cours de création 3D I.
             </p>
             <a
                 href="/"
@@ -51,18 +50,17 @@ export const Blog3D = () => {
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              4 Nov 2020
+              automne 2019
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="text-2xl font-bold leading-5">Conquer the World</p>
+              <p className="text-2xl font-bold leading-5">Éventail 3D</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            Conception d'un éventail 3D avec le logitiel Maya. Le proet a été produit pour le cours de création 3D I.
             </p>
             <a
                 href="/"
@@ -83,7 +81,7 @@ export const Blog3D = () => {
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              28 Dec 2020
+              Hiver 2020
             </p>
             <a
               href="/"
@@ -91,12 +89,11 @@ export const Blog3D = () => {
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
               <p className="text-2xl font-bold leading-5">
-                Explore the beautiful
+              Personnage 3D
               </p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            conception d'un personnage 3D avec le logitiel Maya. Le proet a été produit pour le cours de création 3D I.
             </p>
             <a
                 href="/"

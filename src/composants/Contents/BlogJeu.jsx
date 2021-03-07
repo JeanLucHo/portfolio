@@ -18,7 +18,7 @@ export const BlogJeu = () => {
           />
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-              <span className="text-gray-600">Hivers 2019</span>
+              <span className="text-gray-600">Automne 2020</span>
             </p>
             <a
               href="/"
@@ -26,10 +26,10 @@ export const BlogJeu = () => {
               title="Visit the East"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              Jeustration d'un chapeau
+              Jeu Gundomize
             </a>
             <p className="mb-2 text-gray-700">
-              Jeustration fait avec Adobe Jeu pour le cours d'image numérique II. L'objet est vectorisé.
+              Jeu 3D qui a été fait en Unity. Le jeu à été fait par une équipe de 4 personnes.
             </p>
             <a
               href="/"
@@ -56,10 +56,10 @@ export const BlogJeu = () => {
               title="Simple is better"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-         Jeustration d'une potion
+              Jeu Mini shooter
             </a>
             <p className="mb-2 text-gray-700">
-            Jeustration fait avec Adobe Jeu pour le cours d'image numérique II. L'objet est vectorisé.
+            Jeu fait avec la librairie Phaser. Le projet a été fait par 2 personnes: Moi et Haoyang Chen.
             </p>
             <a
               href="/"
@@ -79,7 +79,7 @@ export const BlogJeu = () => {
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
 
-              <span className="text-gray-600">Hivers 2019</span>
+              <span className="text-gray-600">Automne 2018</span>
             </p>
             <a
               href="/"
@@ -87,10 +87,10 @@ export const BlogJeu = () => {
               title="Film It!"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-         Jeustration d'un sceptre
+         Introduction d'un jeu
             </a>
             <p className="mb-2 text-gray-700">
-            Jeustration fait avec Adobe Jeu pour le cours d'image numérique II. L'objet est vectorisé.
+            Introduction pour le jeu fictuel : Slime Knight. L'animation a été fait avec adobe Animate.
             </p>
             <a
               href="/"

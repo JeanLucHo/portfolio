@@ -1,10 +1,18 @@
 import {useState} from 'react'
 import './Nav.scss';
+
+import { motion } from "framer-motion"
+
+
+
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <motion.div 
+
+    class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+
       <div class="relative flex items-center justify-between">
         <a
           href="/"
@@ -12,7 +20,10 @@ export const Nav = () => {
           title="Company"
           class="inline-flex items-center"
         >
-          <img src="img/logo/logo.png" alt="logo" className='logo'/>
+          <img src="img/logo/mini-logo.png" alt="logo" className='logo'/>
+          <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+              Jean-Luc Ho 
+            </span>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
@@ -154,6 +165,8 @@ export const Nav = () => {
           )}
         </div>
       </div>
-    </div>
+
+    </motion.div>
+    
   );
 };

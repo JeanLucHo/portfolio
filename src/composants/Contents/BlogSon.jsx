@@ -4,7 +4,7 @@ export const BlogSon = () => {
        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
-              <span className="relative">Son</span>
+              <span className="relative">Sons</span>
             </span>{' '}
           </h2>
         </div>
@@ -19,18 +19,17 @@ export const BlogSon = () => {
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              13 Jul 2020
+              Hivers 2020
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="text-2xl font-bold leading-5">Diving to the deep</p>
+              <p className="text-2xl font-bold leading-5">Mixage de sons</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              Mixage d'un son d'environnement.
             </p>
             <a
                 href="/"
@@ -51,18 +50,17 @@ export const BlogSon = () => {
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              4 Nov 2020
+            Hivers 2020
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="text-2xl font-bold leading-5">Conquer the World</p>
+              <p className="text-2xl font-bold leading-5">Mixage de sons d'environnement de jeu</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            Mixage d'un son d'environnement.
             </p>
             <a
                 href="/"
@@ -83,7 +81,7 @@ export const BlogSon = () => {
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              28 Dec 2020
+            Hivers 2020
             </p>
             <a
               href="/"
@@ -91,12 +89,11 @@ export const BlogSon = () => {
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
               <p className="text-2xl font-bold leading-5">
-                Explore the beautiful
+              Mixage d'un son pour une vidéo
               </p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+            Mixage d'un son d'environnement pour une vidéo.
             </p>
             <a
                 href="/"

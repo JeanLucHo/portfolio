@@ -18,7 +18,7 @@ export const BlogArt = () => {
           />
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-              <span className="text-gray-600">Hivers 2019</span>
+              <span className="text-gray-600">Hivers 2018</span>
             </p>
             <a
               href="/"
@@ -26,10 +26,10 @@ export const BlogArt = () => {
               title="Visit the East"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              artstration d'un chapeau
+              Sphère et verre
             </a>
             <p className="mb-2 text-gray-700">
-              artstration fait avec Adobe Art pour le cours d'image numérique II. L'objet est vectorisé.
+              Cours d'art au cégep comme cours complémentaire.
             </p>
             <a
               href="/"
@@ -48,7 +48,7 @@ export const BlogArt = () => {
           />
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-              <span className="text-gray-600">Hivers 2019</span>
+              <span className="text-gray-600">Hivers 2018</span>
             </p>
             <a
               href="/"
@@ -56,10 +56,10 @@ export const BlogArt = () => {
               title="Simple is better"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-         artstration d'une potion
+         Tasse
             </a>
             <p className="mb-2 text-gray-700">
-            artstration fait avec Adobe Art pour le cours d'image numérique II. L'objet est vectorisé.
+            Cours d'art au cégep comme cours complémentaire.
             </p>
             <a
               href="/"
@@ -87,10 +87,10 @@ export const BlogArt = () => {
               title="Film It!"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-         artstration d'un sceptre
+              Proportions humaine
             </a>
             <p className="mb-2 text-gray-700">
-            artstration fait avec Adobe Art pour le cours d'image numérique II. L'objet est vectorisé.
+            Cours d'art au cégep comme cours complémentaire.
             </p>
             <a
               href="/"
