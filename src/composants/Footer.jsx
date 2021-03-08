@@ -1,6 +1,11 @@
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+
 export const Footer = () => {
   return (
     <div id="footer" className=" px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <Fade bottom>
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
           <a
@@ -97,6 +102,7 @@ export const Footer = () => {
           © Copyright 2021. All rights reserved.
         </p>
       </div>
+      </Fade>
     </div>
   );
 };

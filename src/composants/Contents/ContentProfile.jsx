@@ -14,7 +14,7 @@ export const ContentProfile = () => {
                   animate={{ x: 0 }} initial={{x:-1500}}
                   transition={{ ease: "easeOut", duration: 1.5 }}
              className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <lottie-player id="firstLottie" src="https://assets4.lottiefiles.com/packages/lf20_561erxus.json" style={{width: '500px', height: '400px'}} autoplay loop></lottie-player>
+            <lottie-player id="firstLottie" src="https://assets4.lottiefiles.com/packages/lf20_561erxus.json" style={{width: '95%', height: '95%', margin:'auto'}} autoplay loop></lottie-player>
             </motion.div>
             <motion.div
                   animate={{ x: 0 }} initial={{x:-1500}}
@@ -60,8 +60,9 @@ export const ContentProfile = () => {
           </div>
           <br/>
           <br/>
-          <br/>
           <Features/>
+          <br/>
+          <br/>
         </div>
       </motion.div>
     );
