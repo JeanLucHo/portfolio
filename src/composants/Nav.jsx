@@ -1,15 +1,13 @@
 import {useState} from 'react'
 import './Nav.scss';
-
-import { motion } from "framer-motion"
-
+import React from 'react';
 
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <motion.div 
+    <div 
 
     class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 
@@ -28,9 +26,7 @@ export const Nav = () => {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
+              href="/#profil"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               À Propos
@@ -38,22 +34,18 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
+              href="/#projet" uk-scroll
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Projets
             </a>
           </li>
-          <li>
-            <a
-              href="/"
-              aria-label="Product pricing"
-              title="Product pricing"
+          <li >
+          <a
+              href="/#footer"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Contact
+              Contacts
             </a>
           </li>
         </ul>
@@ -166,7 +158,7 @@ export const Nav = () => {
         </div>
       </div>
 
-    </motion.div>
+    </div>
     
   );
 };
