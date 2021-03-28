@@ -3,7 +3,6 @@ import './Nav.scss';
 import React from 'react';
 
 
-
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -37,7 +36,7 @@ export const Nav = () => {
             <a
               // href="/#projet" uk-scroll
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              onClick={() => window.scrollTo({top: window.innerHeight, behavior: 'smooth'})}
+              onClick={() => window.scrollTo({top: window.innerHeight*1.4, behavior: 'smooth'})}
             >
               Projets
             </a>
@@ -46,7 +45,7 @@ export const Nav = () => {
           <a
               // href="/#footer"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              onClick={() => window.scrollTo({top: window.innerHeight*5, behavior: 'smooth'})}
+              onClick={() => window.scrollTo({top: window.innerHeight*8, behavior: 'smooth'})}
             >
               Contacts
             </a>

@@ -1,8 +1,34 @@
 
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox-pro";
 
 export const BlogArt = () => {
+    // JSX can be assigned to a variable
+const captionOne = (
+  <div className="SRLCustomCaption myCustomCaptionOne">
+      Cours d'art au cégep comme cours complémentaire.
+  </div>
+)
+const captionTwo = (
+<div className="SRLCustomCaption myCustomCaptionTwo">
+        Cours d'art au cégep comme cours complémentaire.
+  </div>
+)
+const captionThree = (
+  <a
+    className="SRLCustomCaption myCustomButton"
+  >
+      Cours d'art au cégep comme cours complémentaire.
+  </a>
+)
+
+// Create an array with the custom captions that you want to use
+const customCaptions = [
+  { id: 0, caption: captionOne },
+  { id: 1, caption: captionTwo },
+  { id: 2, caption: captionThree }
+]
   return (
       
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -14,10 +40,12 @@ export const BlogArt = () => {
           </span>{' '}
         </h2>
       </div>
+      <SimpleReactLightbox>
+            <SRLWrapper customCaptions={customCaptions}>
       <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
           <img
-            src="img/Art/art1.jpg"
+            src="img/Art/art1-min.jpg"
             className="object-cover w-full h-64"
             alt=""
           />
@@ -26,7 +54,6 @@ export const BlogArt = () => {
               <span className="text-gray-600">Hivers 2018</span>
             </p>
             <a
-              href="/"
               aria-label="Category"
               title="Visit the East"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
@@ -34,20 +61,13 @@ export const BlogArt = () => {
               Sphère et verre
             </a>
             <p className="mb-2 text-gray-700">
-              Cours d'art au cégep comme cours complémentaire.
+            {captionOne}
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Voir le projet
-            </a>
           </div>
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
           <img
-            src="img/Art/art2.jpg"
+            src="img/Art/art2-min.jpg"
             className="object-cover w-full h-64"
             alt=""
           />
@@ -56,7 +76,6 @@ export const BlogArt = () => {
               <span className="text-gray-600">Hivers 2018</span>
             </p>
             <a
-              href="/"
               aria-label="Category"
               title="Simple is better"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
@@ -64,20 +83,13 @@ export const BlogArt = () => {
          Tasse
             </a>
             <p className="mb-2 text-gray-700">
-            Cours d'art au cégep comme cours complémentaire.
+            {captionOne}
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Voir le projet
-            </a>
           </div>
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
           <img
-            src="img/Art/art5.jpg"
+            src="img/Art/art5-min.jpg"
             className="object-cover w-full h-64"
             alt=""
           />
@@ -87,7 +99,6 @@ export const BlogArt = () => {
               <span className="text-gray-600">Hivers 2019</span>
             </p>
             <a
-              href="/"
               aria-label="Category"
               title="Film It!"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
@@ -95,18 +106,13 @@ export const BlogArt = () => {
               Proportions humaine
             </a>
             <p className="mb-2 text-gray-700">
-            Cours d'art au cégep comme cours complémentaire.
+            {captionOne}
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Voir le projet
-            </a>
           </div>
         </div>
       </div>
+      </SRLWrapper>
+      </SimpleReactLightbox>
       </Fade>
     </div>
   );

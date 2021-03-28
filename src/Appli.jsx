@@ -11,7 +11,6 @@ import { ContentAfterEffect } from './composants/Contents/ContentAfterEffect';
 import { ContentProfile } from './composants/Contents/ContentProfile';
 import { Footer } from './composants/Footer';
 import { Nav } from './composants/Nav';
-import Nom from './composants/Nom';
 import './Appli.scss';
 import { Header } from './composants/Contents/Header';
 
@@ -23,7 +22,6 @@ export default function Appli() {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
     }}>
-        {/* <Nom/> */}
         <Nav/>
         {/* <Header/> */}
         <ContentProfile/>

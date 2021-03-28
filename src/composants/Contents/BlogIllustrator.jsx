@@ -1,8 +1,34 @@
 
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox-pro";
 
 export const BlogIllustrator = () => {
+    // JSX can be assigned to a variable
+const captionOne = (
+  <div className="SRLCustomCaption myCustomCaptionOne">
+    Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
+  </div>
+)
+const captionTwo = (
+  <div className="SRLCustomCaption myCustomCaptionTwo">
+                  Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
+  </div>
+)
+const captionThree = (
+  <a
+    className="SRLCustomCaption myCustomButton"
+  >
+                  Exercice de design fait dans le cours de design graphique.
+  </a>
+)
+
+// Create an array with the custom captions that you want to use
+const customCaptions = [
+  { id: 0, caption: captionOne },
+  { id: 1, caption: captionTwo },
+  { id: 2, caption: captionThree }
+]
     return (
         
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -14,10 +40,12 @@ export const BlogIllustrator = () => {
             </span>{' '}
           </h2>
         </div>
+        <SimpleReactLightbox>
+            <SRLWrapper customCaptions={customCaptions}>
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="img/illustrator/illu1.png"
+              src="img/illustrator/illu1-min.png"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -36,18 +64,12 @@ export const BlogIllustrator = () => {
               <p className="mb-2 text-gray-700">
                 Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
               </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Voir le projet
-              </a>
+
             </div>
           </div>
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="img/illustrator/illu2.png"
+              src="img/illustrator/illu2-min.png"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -66,18 +88,12 @@ export const BlogIllustrator = () => {
               <p className="mb-2 text-gray-700">
               Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
               </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Voir le projet
-              </a>
+
             </div>
           </div>
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="img/illustrator/illu3.png"
+              src="img/illustrator/illu3-min.png"
               className="object-cover w-full h-64"
               alt=""
             />
@@ -97,16 +113,12 @@ export const BlogIllustrator = () => {
               <p className="mb-2 text-gray-700">
               Illustration fait avec Adobe Illustrator pour le cours d'image numérique II. L'objet est vectorisé.
               </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Voir le projet
-              </a>
+
             </div>
           </div>
         </div>
+        </SRLWrapper>
+      </SimpleReactLightbox>
         </Fade>
       </div>
     );
