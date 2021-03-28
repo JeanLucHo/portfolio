@@ -18,10 +18,7 @@ export const Nav = () => {
           title="Company"
           class="inline-flex items-center"
         >
-          <img src="img/logo/mini-logo.png" alt="logo" className='logo'/>
-          <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              Jean-Luc Ho 
-            </span>
+            <lottie-player id="firstLottie" src="https://assets5.lottiefiles.com/packages/lf20_5ounroew.json" style={{width: '37.5%'}} autoplay></lottie-player>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>

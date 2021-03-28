@@ -94,11 +94,13 @@ const customCaptions = [
           </div>
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <img
-            src="img/Jeu/Jeu3-min.png"
-            className="object-cover w-full h-64"
-            alt=""
-          />
+          <a href="https://www.youtube.com/watch?v=QYw00Egsz-s">
+            <img
+              src="img/Jeu/Jeu3-min.png"
+              className="object-cover w-full h-64"
+              alt=""
+            />
+          </a>
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
 
