@@ -1,5 +1,7 @@
 import './Nom.scss';
 
+
+{/*
 export default function Nom() {
   return (
     <div className="Nom">
@@ -36,3 +38,4 @@ export default function Nom() {
 
   );
 }
+*/ }
